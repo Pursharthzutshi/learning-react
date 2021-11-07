@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.buttons-container, .top-bar-row, .address-container,.reciver-address-container,.address-top-bar-row {
+    display: flex;
+}
+
+.buttons-container, .top-bar-row,.address-top-bar-row {
+    flex-direction: row;
+}
+
+.address-top-bar-row{
+    justify-content: space-between;
+}
+
+.address-container,.reciver-address-container {
+    flex-direction: column;
+}
+
+.reciver-address-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar-row {
+    gap: 10px;
+}
+
+h3 {
+    margin-top: 14px;
+}
+
+span {
+    margin-top: 15px;
+    color: gray;
+}
+
+.buttons-container {
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 70px;
+
+}
+
+.box {
+    margin: 12px 2px 2px 22px;
+    width: 20rem;
+    height: 9rem;
+    box-shadow: .2px .2px 12px .2px lightgray;
+    padding: 2px 2px 2px 32px;
+}
+
+.avatar-image {
+    margin: 12px 2px 2px 2px;
+}
+
+ion-icon {
+    font-size: 1.4rem;
+}
+
+
+.address-box {
+    margin-top: 20px;
+    margin-left: 23px;
+    height: 15rem;
+    width: 42%;
+    box-shadow: .2px .2px 12px .2px lightgray;
+    padding: 2px 2px 2px 22px;
+}
+
+.address-sender-text{
+    margin-top: -2px;
+}
+
+.address-container .address-sender-text:nth-child(2){
+    margin-top: -17px;
+}
+
+.stamp-box{
+    border: 2px solid gray;
+}
